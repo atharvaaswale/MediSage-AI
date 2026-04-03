@@ -2,9 +2,15 @@
 
 A medical question-answering system powered by Retrieval-Augmented Generation (RAG). MedSage AI uses vector embeddings and a large language model to answer medical queries based on the Gale Encyclopedia of Medicine.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge.svg)](https://medisage-ai.streamlit.app/)
-
 **Live Demo:** [medisage-ai.streamlit.app](https://medisage-ai.streamlit.app/)
+
+## Application Preview
+
+| Full Chat Interface | Conversational Memory |
+| :---: | :---: |
+| <img src="full_chat_interface.jpeg" width="500" /> | <img src="chat_history_proof.jpeg" width="600" align="top"/> |
+
+> **Note:** The second image demonstrates the system's ability to recall previous context.
 
 ## Features
 
@@ -14,13 +20,6 @@ A medical question-answering system powered by Retrieval-Augmented Generation (R
 - **Disclaimer included**: Always includes a medical disclaimer with each response
 - **Streamlit UI**: Clean web interface for interacting with the system
 
-## Application Preview
-
-| Full Chat Interface | Conversational Memory Proof |
-| :--- | :--- |
-| ![Full Chat](full_chat_interface.jpg) | ![History Proof](chat_history_proof.jpeg) |
-
-> **Note:** The second image demonstrates the system's ability to recall previous context.
 
 ## Tech Stack
 
