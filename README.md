@@ -34,15 +34,15 @@ A medical question-answering system powered by Retrieval-Augmented Generation (R
 
 ```
 MediSage AI/
-├── app.py                  # Streamlit web application
+├── app.py                      # Streamlit web application
 ├── src/
-│   ├── engine.py          # RAG chain implementation
+│   ├── engine.py               # RAG chain implementation
 │   └── 01_create_memory.ipynb  # Notebook for creating vector store
 ├── data/
 │   └── The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf
-├── vectorstore/db_faiss/   # FAISS vector database
-├── requirements.txt        # Python dependencies
-└── pyproject.toml          # Project metadata
+├── vectorstore/db_faiss/       # FAISS vector database
+├── requirements.txt            # Python dependencies
+└── pyproject.toml              # Project metadata
 ```
 
 ## Setup
