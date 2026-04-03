@@ -1,13 +1,11 @@
 import os
 from dotenv import load_dotenv
 
-# Modern LangChain Imports for v1.x
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate
 
-# For LangChain 1.x, these functions are in the classic package
 from langchain_classic.chains import create_retrieval_chain
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 
@@ -45,7 +43,7 @@ def get_rag_chain():
 
     # 3. Initialize LLM
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.5-flash", # Note: Changed to 1.5-flash as 2.5 doesn't exist yet
+        model="gemini-2.5-flash",
         google_api_key=GEMINI_API_KEY,
         temperature=0.3,
     )
